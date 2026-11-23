@@ -1,3 +1,62 @@
 <resources>
     <string name="app_name">EnvironmentMonitor</string>
+
+    <!-- ناوبری و تب‌ها -->
+    <string name="nav_dashboard">داشبورد</string>
+    <string name="nav_history">تاریخچه</string>
+    <string name="nav_flow_lab">آزمایش جریان</string>
+    <string name="cd_back">بازگشت</string>
+    <string name="cd_dashboard_icon">آیکون داشبورد</string>
+    <string name="cd_history_icon">آیکون تاریخچه</string>
+    <string name="cd_status_normal">وضعیت عادی</string>
+    <string name="cd_status_alert">وضعیت هشدار</string>
+
+    <!-- پیام‌های Snackbar -->
+    <string name="snackbar_monitoring_started">پایش محیط شروع شد</string>
+    <string name="snackbar_monitoring_stopped">پایش محیط متوقف شد</string>
+
+    <!-- داشبورد -->
+    <string name="startup_loading">در حال آماده‌سازی اطلاعات ایستگاه و آستانه‌ها…</string>
+    <string name="startup_error_title">خطا در آماده‌سازی اولیه</string>
+    <string name="startup_duration_label">زمان آماده‌سازی: %1$d میلی‌ثانیه</string>
+    <string name="station_label">ایستگاه: %1$s (%2$s)</string>
+    <string name="limits_label">آستانه هشدار: دما ≥ %1$.1f°C یا رطوبت ≥ %2$d%%</string>
+
+    <string name="temperature_label">دما</string>
+    <string name="humidity_label">رطوبت</string>
+    <string name="placeholder_value">—</string>
+    <string name="waiting_first_reading">در انتظار دریافت اولین خوانش معتبر…</string>
+
+    <string name="status_normal">عادی</string>
+    <string name="status_alert">هشدار</string>
+    <string name="monitoring_state_idle">وضعیت پایش: آماده</string>
+    <string name="monitoring_state_running">وضعیت پایش: فعال</string>
+    <string name="monitoring_state_stopping">وضعیت پایش: در حال توقف…</string>
+    <string name="monitoring_state_stopped">وضعیت پایش: متوقف</string>
+    <string name="monitoring_state_error">وضعیت پایش: خطا</string>
+
+    <string name="btn_start">شروع</string>
+    <string name="btn_stop">توقف</string>
+    <string name="btn_retry">تلاش دوباره</string>
+    <string name="btn_trigger_error">خطا در خوانش بعدی</string>
+    <string name="btn_open_flow_lab">ورود به آزمایش جریان</string>
+
+    <!-- تاریخچه -->
+    <string name="history_summary_title">خلاصه ۳۰ خوانش اخیر</string>
+    <string name="history_count_label">تعداد خوانش‌ها</string>
+    <string name="history_avg_temp_label">میانگین دما</string>
+    <string name="history_alerts_label">تعداد هشدارها</string>
+    <string name="history_empty">هنوز خوانشی ثبت نشده است.</string>
+    <string name="reading_id_format">#%1$d</string>
+
+    <!-- آزمایش جریان -->
+    <string name="flow_lab_subtitle">مقایسه رفتار جریان (تولید هر 100ms) در برابر مصرف‌کننده کند (پردازش 300ms)</string>
+    <string name="flow_lab_mode_normal">عادی (collect)</string>
+    <string name="flow_lab_mode_buffer">بافر (buffer)</string>
+    <string name="flow_lab_mode_conflate">آخرین مقدار منتظر (conflate)</string>
+    <string name="flow_lab_mode_collect_latest">آخرین پردازش (collectLatest)</string>
+    <string name="btn_run">اجرا</string>
+    <string name="btn_cancel">لغو</string>
+    <string name="flow_lab_logs_title">گزارش اجرا (Log)</string>
+    <string name="flow_lab_logs_empty">یک حالت را انتخاب کنید و دکمه «اجرا» را بزنید.</string>
 </resources>
